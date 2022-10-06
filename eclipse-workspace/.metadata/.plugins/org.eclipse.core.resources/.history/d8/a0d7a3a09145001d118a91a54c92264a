@@ -1,0 +1,90 @@
+package HW1.java;
+
+public class HW1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//p9
+		System.out.print("歡迎使用Java!");
+		System.out.print("開始使用Java吧!");
+		//p10
+		System.out.println("歡迎使用Java!");
+		System.out.println("開始使用Java吧!");
+		//p16
+		System.out.println('A');
+		System.out.println("歡迎使用Java!");
+		System.out.println(123);
+		//p18
+		System.out.println("顯示出反斜線:\\");
+		System.out.println("顯示出單引號\'");
+		
+		System.out.println("八進位數101的字元是\101");
+		System.out.println("十六進位數0061的字元是\u0061");
+		//p19
+		System.out.println("十進位的10是"+10);
+		System.out.println("八進位的10是"+010);
+		System.out.println("十六進位的10是"+0x10);
+		System.out.println("十六進位的F是"+0xF);
+		//p25,26
+		int num;
+		num=3;
+		System.out.println("變數num的值是:"+num);
+		
+		num=5;
+		System.out.println("更新變數num的值");
+		System.out.println("變數num更新後的值是:"+num);
+		//p27
+		int num1,num2;
+		num1=3;
+		System.out.println("變數num1的值是:"+num1);
+		num2=num1;
+		System.out.println("將變數num1指定到變數num2之中");
+		System.out.println("變數num2的值是:"+num2);
+		//p28
+		System.out.println("請輸入一個整數");
+		BufferedReader br1=
+				new BufferedReader(new InputStreamReader(System.in));
+		String str1=br1.readLine();
+		int num3=Integer.parseInt(str1);
+		System.out.println("您輸入的數字是:"+num3);
+		System.out.println("請輸入字串");
+		BufferedReader br2=
+				new BufferedReader(new InputStreamReader(System.in));
+		String str2=br2.readLine();
+		System.out.println("剛剛輸入的字串是:"+str2);
+		//p31
+		System.out.println("1+2等於"+(1+2));
+		System.out.println("3*4等於"+(3*4));
+		int num4=2;
+		int num5=3;
+		int sum=num4+num5
+		System.out.println("變數num4的值是:"+num4);
+		System.out.println("變數num5的值是:"+num5);
+		System.out.println("num4+num5的值是:"+sum);
+		num4=num4+1;
+		System.out.println("變數num4的值加一之後是:"+num4);
+		//p34
+		int num6=10;
+		int num7=5;
+		System.out.println("num6和num7的各種運算:");
+		System.out.println("num6+num7等於"+(num6+num7));
+		System.out.println("num6-num7等於"+(num6-num7));
+		System.out.println("num6*num7等於"+(num6*num7));
+		System.out.println("num6/num7等於"+(num6/num7));
+		System.out.println("num6%num7等於"+(num6%num7));
+		int a=0;
+		int b=0;
+		int c=0;
+		b=a++;
+		c=++a;
+		System.out.println("因為是在指定值之後才遞增,所以b的值為"+b);
+		System.out.println("因為是在遞增之後才指定值,所以c的值為"+c);
+		//p38
+		double dnum=160.5;
+		System.out.println("");
+		
+				
+		
+	}
+
+}
